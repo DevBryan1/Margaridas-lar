@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.site-completo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.body-site{
+    width: 100%;
+}
+.imgLogo{
+    width: 300px;
+}
+.container-header{
+    height: 102px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.226);
+}
+.navMenu{
+    display: flex;
+    gap: 1rem;
+    margin-top: 18px;
+}
+.navMenu a{
+    text-decoration: none;
+    color: black;
+}
+.navMenu li {
+    font-family: 'roboto condesed', sans-serif;
+    font-weight: 600;
+    list-style-type: none;
+    cursor: pointer;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #767676;
+}
+.navMenu li:hover{
+    background-color: #767676;
+    color: white;
+    border-radius: 30px;
+    transition: all 200ms ease;
+}
+.btnIcon{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+.btnIcon img{
+    width: 100px;
+}
+.footer{
+    width: 100%;
+    height: 220px;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.226);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 500;
+}
+.card-title{
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-around;
+}
+.card-title2{
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    gap: 15px;
+}
+.card-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.card-text2{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-title3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.card-text3 svg, .card-title3 svg{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+@media screen and (max-width:900px){
+    .navMenu{
+        display: none;
+        justify-content: space-between;
+    }
+}
